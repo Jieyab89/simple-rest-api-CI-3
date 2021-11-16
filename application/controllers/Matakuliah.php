@@ -51,6 +51,7 @@ class Matakuliah extends REST_Controller
     {
       $this->response(array('status' => 'fail', 502));
     }
+    
   }
 
   function index_put()

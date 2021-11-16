@@ -6,6 +6,8 @@ require APPPATH . 'libraries/REST_Controller.php';
 class Mahasiswa extends REST_Controller
 {
 
+  //function yang akan mengeksuki sebelum function berikutnya
+
   function __construct()
   {
     parent::__construct();
